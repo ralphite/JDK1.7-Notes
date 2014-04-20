@@ -5,12 +5,20 @@ source code reading notes on jdk 1.7
 
 - 第一遍只过基本模块，而且多线程相关的全忽略了
  - Object
- - Integer, Long, Character, ...
- - Collections
  - Arrays
- - String, StringBuffer, ...
- - Math
  - System
+ - Objects
+ - Integer, Long, Character, Boolean, Double, etc
+ - Class
+ - String, StringBuffer, StringBuilder
+ - Math
+ - Collections
+  - ArrayList
+  - LinkedList
+  - HashMap
+  - HashSet
+  - Stack
+  - PriorityQueue
 
 
 > - 代码是最好的注释
