@@ -13,12 +13,12 @@ source code reading notes on jdk 1.7
  - String, StringBuffer, StringBuilder
  - Math
  - Collections
-  - ArrayList
-  - LinkedList
-  - HashMap
-  - HashSet
-  - Stack
-  - PriorityQueue
+   - ArrayList
+   - LinkedList
+   - HashMap
+   - HashSet
+   - Stack
+   - PriorityQueue
 
 
 > - 代码是最好的注释
