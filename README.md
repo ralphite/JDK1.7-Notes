@@ -3,7 +3,7 @@ JDK1.7-Notes
 
 source code reading notes on jdk 1.7
 
-- 第一遍只过基本模块
+- 第一遍只过基本模块，而且多线程相关的全忽略了
  - Object
  - Integer, Long, Character, ...
  - Collections
