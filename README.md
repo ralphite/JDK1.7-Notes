@@ -7,8 +7,8 @@ source code reading notes on jdk 1.7
     - Object
     - Arrays
     - System
-    - Objects
-    - Integer, Long, Character, Boolean, Double, etc
+    - ClassLoader
+    - Boolean, Byte, Short, Integer, Long, Character, Double, Float, Void
     - Class
     - String, StringBuffer, StringBuilder
     - Math
