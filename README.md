@@ -5,8 +5,8 @@ source code reading notes on jdk 1.7
 
 > 第一遍只过基本模块，而且多线程相关的全忽略了
 
-- [x] Object
-- [x] Arrays
+- [ ] Object
+- [ ] Arrays
 - [ ] System
 - [ ] ClassLoader
 - [ ] Primitive type wrappers
