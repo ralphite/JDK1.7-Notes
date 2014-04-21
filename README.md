@@ -5,6 +5,7 @@ source code reading notes on jdk 1.7
 
 > 第一遍只过基本模块，而且多线程相关的全忽略了
 
+
 - [ ] Object
 - [ ] Arrays
 - [ ] System
@@ -31,6 +32,9 @@ source code reading notes on jdk 1.7
 - [ ] PriorityQueue
 - [ ] Hashtable
 - [ ] Vector
+
+
+-----------
 
 > - 代码是最好的注释
 > - 书写是非常有效的思考方式
