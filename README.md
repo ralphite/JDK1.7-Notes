@@ -9,31 +9,28 @@ source code reading notes on jdk 1.7
 - [ ] Arrays
 - [ ] System
 - [ ] ClassLoader
-- [ ] Primitive type wrappers
-    - Boolean 
-    - Byte 
-    - Short 
-    - Integer 
-    - Long
-    - Character 
-    - Double
-    - Float
-    - Void
+- [ ] Boolean 
+- [ ] Byte 
+- [ ] Short 
+- [ ] Integer 
+- [ ] Long
+- [ ] Character 
+- [ ] Double
+- [ ] Float
+- [ ] Void
 - [ ] Class
-- [ ] String related
-    - String
-    - StringBuffer
-    - StringBuilder
+- [ ] String
+- [ ] StringBuffer
+- [ ] StringBuilder
 - [ ] Math
-- [ ] Collections
-    - ArrayList
-    - LinkedList
-    - HashMap
-    - HashSet
-    - Stack
-    - PriorityQueue
-    - Hashtable
-    - Vector
+- [ ] ArrayList
+- [ ] LinkedList
+- [ ] HashMap
+- [ ] HashSet
+- [ ] Stack
+- [ ] PriorityQueue
+- [ ] Hashtable
+- [ ] Vector
 
 > - 代码是最好的注释
 > - 书写是非常有效的思考方式
