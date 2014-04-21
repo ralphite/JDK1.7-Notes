@@ -25,7 +25,6 @@ source code reading notes on jdk 1.7
         - StringBuilder
     - Array
     - Math
-    - Iterator, Iterable
     - *Collections*
         - Collection
         - List
@@ -58,6 +57,11 @@ source code reading notes on jdk 1.7
     - Scanner
     - Timer
     - UUID
+    - *Common Interfaces*
+        - Comparable and Comparator
+        - Iterable and Iterator
+        - Serializable
+        - Cloneable
 
 -----
 
