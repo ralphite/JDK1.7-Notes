@@ -4,22 +4,60 @@ JDK1.7-Notes
 source code reading notes on jdk 1.7
 
 - 第一遍只过基本模块，而且多线程相关的全忽略了
-    - Object
-    - Arrays
-    - System
+    - Object &#10004;
+    - Arrays &#10004;
+    - System &#10004;
     - ClassLoader
-    - Boolean, Byte, Short, Integer, Long, Character, Double, Float, Void
+    - *Primitive type wrappers*
+        - Boolean
+        - Byte
+        - Short
+        - Integer
+        - Long
+        - Character
+        - Double
+        - Float
+        - Void
     - Class
-    - String, StringBuffer, StringBuilder
+    - *String related*
+        - String
+        - StringBuffer
+        - StringBuilder
     - Array
     - Math
-    - Collections
+    - Iterator, Iterable
+    - *Collections*
+        - Collection
+        - List
+        - Set
+        - Map
+        - Queue
+        - Stack
+        - Deque
+        - Vector
+        - Dictionary
+        - Hashtable
         - ArrayList
         - LinkedList
         - HashMap
         - HashSet
-        - Stack
+        - TreeSet
+        - TreeMap
+        - LinkedHashMap
+        - LinkedHashSet
+        - NavigableMap
+        - NavigableSet
+        - SortedSet
+        - SortedMap
+        - WeakHashMap
+        - BitSet
         - PriorityQueue
+        - Collections
+    - Comparator
+    - Random +
+    - Scanner
+    - Timer
+    - UUID
 
 -----
 
