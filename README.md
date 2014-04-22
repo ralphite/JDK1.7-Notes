@@ -7,18 +7,17 @@ source code reading notes on jdk 1.7
     - Object &#10004;
     - Arrays &#10004;
     - System &#10004;
-    - ClassLoader
+    - Class
     - *Primitive type wrappers*
         - Boolean &#10004;
-        - Byte
+        - Byte &#10004;
         - Short
         - Integer
         - Long
-        - Character
+        - Character &#10004;
         - Double
         - Float
-        - Void
-    - Class
+    - ClassLoader
     - *String related*
         - String
         - StringBuffer
