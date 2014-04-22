@@ -99,7 +99,7 @@ public static native void arraycopy(Object src,  int  srcPos,
 //with 0s or nulls when necessary to ensure output length
 ```
 
-> `System.arraycopy` uses assemblies which can operate multiple elements with one asm command.
+> `System.arraycopy` uses assemblies which can operate on multiple elements with one asm directive.
 > see http://hg.openjdk.java.net/jdk7u/jdk7u/hotspot/file/98fafba890cb/src/share/vm/prims/jvm.cpp#l309
 > and https://gutspot.com/2011/11/16/system-arraycopy%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/
 
@@ -137,3 +137,6 @@ List l = Arrays.asList(new LinkedList(), new ArrayList(), new Object(), 1, 2, 4)
 - the `deepToString` method works well with nested arrays of arbitrary depth. The implementation can detect recursive definitions, that is, an array which contains itself directly or indirectly, and prints `[...]` in this case, thus it is safe.
 
 > the implementation is quite interesting. it uses a HashSet to contain all the current arrays being processed. When it begins the array object is put into the set, and after it finishes the array object is removed.
+
+
+> how to create an array which contains itself? `Object[] o = new Object[1]; o[0] = o;` is an example.
