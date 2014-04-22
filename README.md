@@ -9,7 +9,7 @@ source code reading notes on jdk 1.7
     - System &#10004;
     - ClassLoader
     - *Primitive type wrappers*
-        - Boolean
+        - Boolean &#10004;
         - Byte
         - Short
         - Integer
@@ -62,6 +62,7 @@ source code reading notes on jdk 1.7
         - Iterable and Iterator
         - Serializable
         - Cloneable
+        - Throwable
 
 -----
 
