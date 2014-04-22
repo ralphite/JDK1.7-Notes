@@ -1,5 +1,5 @@
 - root of everything
-- has many native classes
+- has many native methods
  - getClass
  - hashCode
  - clone(protected)
