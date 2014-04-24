@@ -7,22 +7,28 @@ source code reading notes on jdk 1.7
     - Object &#10004;
     - Arrays &#10004;
     - System &#10004;
-    - Class
+    - *Reflection*
+        - Class
+        - Constructor
+        - Method
+        - Field
+        - Modifier
+        - Array
+        - AccessibleObject
     - *Primitive type wrappers*
         - Boolean &#10004;
         - Byte &#10004;
-        - Short
-        - Integer
+        - Short &#10004;
+        - Integer &#10004;
         - Long
         - Character &#10004;
         - Double
         - Float
     - ClassLoader
     - *String related*
-        - String
+        - String &#10004;
         - StringBuffer
         - StringBuilder
-    - Array
     - Math
     - *Collections*
         - Collection
@@ -51,7 +57,6 @@ source code reading notes on jdk 1.7
         - BitSet
         - PriorityQueue
         - Collections
-    - Comparator
     - Random +
     - Scanner
     - Timer
