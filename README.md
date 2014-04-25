@@ -27,8 +27,9 @@ source code reading notes on jdk 1.7
     - ClassLoader
     - *String related*
         - String &#10004;
+        - AbstractStringBuilder
         - StringBuffer
-        - StringBuilder
+        - StringBuilder &#10004;
     - Math
     - *Collections*
         - Collection
@@ -51,8 +52,6 @@ source code reading notes on jdk 1.7
         - LinkedHashSet
         - NavigableMap
         - NavigableSet
-        - SortedSet
-        - SortedMap
         - WeakHashMap
         - BitSet
         - PriorityQueue
