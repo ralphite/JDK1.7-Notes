@@ -1,3 +1,4 @@
+
 - there are a few overloaded toString methods which convert an int to Strings of different radix.
     - `public static String toString(int i, int radix);` radix can be any value b/t 2 and 36 inclusive
     - `toHexString`, `toOctalString` and `toBinaryString`
@@ -87,4 +88,17 @@ q = (i * 52429) >>> (16+3); // i / 10. this will be much more efficient than div
     }
 
 ```
+
+- more magical bit manipulation code
+
+```
+i & -i; //the value of number with only one 1 at the lowest postion of 1 in i
+
+(i << distance) | (i >>> -distance); //rotate left distance bits
+
+(i >>> distance) | (i << -distance); //rotate right distance bits
+
+```
+
+> the analysis of the bit manipulation algorithms here http://blog.csdn.net/oanqoanq/article/details/4083086
 
