@@ -13,11 +13,13 @@ Unlike integer the stringSize method is not optimized with a constant
 array.
 
 > static parseLong(String s, int radix);
+>
 > https://gist.github.com/yadongwen/11280140
 
 Unlike Integer, Long only caches 256 instances from -128 to 127
 
 > Note Long's decode method
+>
 > https://gist.github.com/yadongwen/11280757
 
 hashCode is the exclusive or of the two halves
@@ -72,6 +74,7 @@ see Hackers' Delights for details
 ```
 
 > binary searching the highest order 1 bit in combination with
+>
 > bit shifts
 
 ```
@@ -109,6 +112,7 @@ see Hackers' Delights for details
 ```
 
 > rotation is quite easy to understand.
+>
 >> note shifting a negative value -i means shifting 32-i
 
 ```
@@ -124,7 +128,9 @@ see Hackers' Delights for details
 ```
 
 > imagine how negative numbers are stored.
+>
 >> see http://en.wikipedia.org/wiki/Two's_complement
+>>
 >> see http://www.programminglogic.com/how-computers-represent-negative-binary-numbers/
 
 ```
@@ -135,9 +141,13 @@ see Hackers' Delights for details
 ```
 
 > let i=ABCDEFGH, after first line i becomes BADCFEHG
+>
 > i << 48 is HG000000
+>
 > (i & 0xffff0000L) << 16 is 00FE0000
+>
 > (i >>> 16) & 0xffff0000L is 0000DC00
+>
 > i >>> 48 is 0000000BA
 
 ```
@@ -164,9 +174,13 @@ see Hackers' Delights for details
 ```
 
 > count number of 1s in groups of 2, 4, 8, 16...
+>
 > 1st line: e.g. (01)(11)(10)(00) ==> (01)(10)(01)(00)
+>
 > 2nd line: e.g. (0011)(1110) ==> (0010)(0011)
+>
 > ...
+>
 > last line only gets the last 7 bits since the return value cannot be greater
 > than 64
 
