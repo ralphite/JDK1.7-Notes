@@ -20,14 +20,14 @@ source code reading notes on jdk 1.7
         - Byte &#10004;
         - Short &#10004;
         - Integer &#10004;
-        - Long
+        - Long &#10004;
         - Character &#10004;
         - Double &#10004;
-        - Float
+        - Float &#10004;
     - ClassLoader
     - *String related*
         - String &#10004;
-        - AbstractStringBuilder
+        - AbstractStringBuilder &#10004;
         - StringBuffer &#10004;
         - StringBuilder &#10004;
     - Math
