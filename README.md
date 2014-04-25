@@ -22,13 +22,13 @@ source code reading notes on jdk 1.7
         - Integer &#10004;
         - Long
         - Character &#10004;
-        - Double
+        - Double &#10004;
         - Float
     - ClassLoader
     - *String related*
         - String &#10004;
         - AbstractStringBuilder
-        - StringBuffer
+        - StringBuffer &#10004;
         - StringBuilder &#10004;
     - Math
     - *Collections*
