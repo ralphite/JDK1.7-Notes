@@ -3,7 +3,7 @@ JDK1.7-Notes
 
 source code reading notes on jdk 1.7
 
-- 第一遍只过基本模块，而且多线程、Unicode、和native方法实现全忽略了
+- 第一遍只过基本模块，而且多线程、Unicode、generics和native方法实现全忽略了
     - Object &#10004;
     - Arrays &#10004;
     - System &#10004;
@@ -22,13 +22,15 @@ source code reading notes on jdk 1.7
         - StringBuffer &#10004;
         - StringBuilder &#10004;
     - Math &#10004;
+        - BigDecimal
+        - BigInteger
     - *Common Interfaces*
-        - Comparable and Comparator
+        - Comparable and Comparator &#10004;
         - Iterable and Iterator &#10004;
         - Serializable &#10004;
         - Cloneable &#10004;
-        - Throwable
-        - RandomAccess
+        - RandomAccess &#10004;
+        - Appendable
     - *Collections*
         - Collection &#10004;
         - AbstractCollection &#10004;
@@ -42,9 +44,9 @@ source code reading notes on jdk 1.7
         - EnumSet
         - RegularEnumSet
         - JumboEnumSet
-        - List
-        - AbstractList
-        - ArrayList
+        - List &#10004;
+        - AbstractList &#10004;
+        - ArrayList &#10004;
         - AbstractQueue
         - Queue
         - Deque
@@ -67,7 +69,7 @@ source code reading notes on jdk 1.7
         - EnumMap
         - BitSet
         - Collections
-    - Random +
+    - Random
     - Scanner
     - Timer
     - UUID
@@ -85,9 +87,9 @@ source code reading notes on jdk 1.7
     - *Logging*
     - *Regex*
     - *Net*
-    - *Exceptions*
-    - *Errors*
-
+    - Throwable
+        - Exception
+        - Error
 
 -----
 
