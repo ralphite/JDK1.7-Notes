@@ -22,12 +22,11 @@ source code reading notes on jdk 1.7
         - StringBuffer &#10004;
         - StringBuilder &#10004;
     - Math &#10004;
-    - ClassLoader
     - *Common Interfaces*
         - Comparable and Comparator
         - Iterable and Iterator &#10004;
-        - Serializable
-        - Cloneable
+        - Serializable &#10004;
+        - Cloneable &#10004;
         - Throwable
         - RandomAccess
     - *Collections*
@@ -35,8 +34,8 @@ source code reading notes on jdk 1.7
         - AbstractCollection &#10004;
         - Set &#10004;
         - AbstractSet &#10004;
-        - HashSet
-        - LinkedHashSet
+        - HashSet &#10004;
+        - LinkedHashSet &#10004;
         - SortedSet
         - NavigableSet
         - TreeSet
@@ -72,6 +71,7 @@ source code reading notes on jdk 1.7
     - Scanner
     - Timer
     - UUID
+    - ClassLoader
     - *Reflections*
         - Class
         - Constructor
