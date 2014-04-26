@@ -3,7 +3,7 @@ JDK1.7-Notes
 
 source code reading notes on jdk 1.7
 
-- 第一遍只过基本模块，而且多线程相关的全忽略了
+- 第一遍只过基本模块，而且多线程、Unicode、和native方法实现全忽略了
     - Object &#10004;
     - Arrays &#10004;
     - System &#10004;
@@ -21,43 +21,57 @@ source code reading notes on jdk 1.7
         - AbstractStringBuilder &#10004;
         - StringBuffer &#10004;
         - StringBuilder &#10004;
-    - Math
+    - Math &#10004;
     - ClassLoader
-    - *Collections*
-        - Collection
-        - List
-        - Set
-        - Map
-        - Queue
-        - Stack
-        - Deque
-        - Vector
-        - Dictionary
-        - Hashtable
-        - ArrayList
-        - LinkedList
-        - HashMap
-        - HashSet
-        - TreeSet
-        - TreeMap
-        - LinkedHashMap
-        - LinkedHashSet
-        - NavigableMap
-        - NavigableSet
-        - WeakHashMap
-        - BitSet
-        - PriorityQueue
-        - Collections
-    - Random +
-    - Scanner
-    - Timer
-    - UUID
     - *Common Interfaces*
         - Comparable and Comparator
         - Iterable and Iterator &#10004;
         - Serializable
         - Cloneable
         - Throwable
+        - RandomAccess
+    - *Collections*
+        - Collection &#10004;
+        - AbstractCollection &#10004;
+        - Set &#10004;
+        - AbstractSet &#10004;
+        - HashSet
+        - LinkedHashSet
+        - SortedSet
+        - NavigableSet
+        - TreeSet
+        - EnumSet
+        - RegularEnumSet
+        - JumboEnumSet
+        - List
+        - AbstractList
+        - ArrayList
+        - AbstractQueue
+        - Queue
+        - Deque
+        - AbstractSequentialList
+        - LinkedList
+        - PriorityQueue
+        - ArrayDeque
+        - Vector
+        - Stack
+        - Map
+        - AbstractMap
+        - HashMap
+        - LinkedHashMap
+        - WeakHashMap
+        - SortedMap
+        - NavigableMap
+        - TreeMap
+        - Dictionary
+        - Hashtable
+        - EnumMap
+        - BitSet
+        - Collections
+    - Random +
+    - Scanner
+    - Timer
+    - UUID
     - *Reflections*
         - Class
         - Constructor
