@@ -30,26 +30,17 @@ source code reading notes on jdk 1.7
         - Serializable &#10004;
         - Cloneable &#10004;
         - RandomAccess &#10004;
-        - Appendable
+        - Appendable &#10004;
     - *Collections*
         - Collection &#10004;
         - AbstractCollection &#10004;
-        - Set &#10004;
-        - AbstractSet &#10004;
-        - HashSet &#10004;
-        - LinkedHashSet &#10004;
-        - SortedSet
-        - NavigableSet
-        - TreeSet
-        - EnumSet
-        - RegularEnumSet
-        - JumboEnumSet
         - List &#10004;
+        - ListIterator &#10004;
         - AbstractList &#10004;
         - ArrayList &#10004;
+        - Queue &#10004;
+        - Deque &#10004;
         - AbstractQueue
-        - Queue
-        - Deque
         - AbstractSequentialList
         - LinkedList
         - PriorityQueue
@@ -67,6 +58,16 @@ source code reading notes on jdk 1.7
         - Dictionary
         - Hashtable
         - EnumMap
+        - Set &#10004;
+        - AbstractSet &#10004;
+        - HashSet &#10004;
+        - LinkedHashSet &#10004;
+        - SortedSet
+        - NavigableSet
+        - TreeSet
+        - EnumSet
+        - RegularEnumSet
+        - JumboEnumSet
         - BitSet
         - Collections
     - Random
@@ -89,6 +90,8 @@ source code reading notes on jdk 1.7
     - *Net*
     - Throwable
         - Exception
+            - RuntimeException   
+                - ConcurrentModificationException
         - Error
 
 -----
