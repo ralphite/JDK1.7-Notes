@@ -40,14 +40,14 @@ source code reading notes on jdk 1.7
         - ArrayList &#10004;
         - Queue &#10004;
         - Deque &#10004;
-        - AbstractQueue
-        - AbstractSequentialList
+        - AbstractQueue &#10004;
+        - AbstractSequentialList &#10004;
         - LinkedList
         - PriorityQueue
         - ArrayDeque
-        - Vector
-        - Stack
-        - Map
+        - Vector &#10004;
+        - Stack &#10004;
+        - Map &#10004;
         - AbstractMap
         - HashMap
         - LinkedHashMap
