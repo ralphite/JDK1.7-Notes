@@ -1,6 +1,8 @@
 ##java.util.PriorityQueue.java.md
 ----------------
 
+>> for better explanation, see http://wlh0706-163-com.iteye.com/blog/1850125
+
 This is an implementation of an unbounded priority queue basd on priority
 heap.
 
