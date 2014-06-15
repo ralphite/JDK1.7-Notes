@@ -42,9 +42,9 @@ source code reading notes on jdk 1.7
         - Deque &#10004;
         - AbstractQueue &#10004;
         - AbstractSequentialList &#10004;
-        - LinkedList
-        - PriorityQueue
-        - ArrayDeque
+        - LinkedList &#10004;
+        - PriorityQueue &#10004;
+        - ArrayDeque &#10004;
         - Vector &#10004;
         - Stack &#10004;
         - Map &#10004;
