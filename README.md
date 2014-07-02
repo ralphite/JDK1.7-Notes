@@ -48,9 +48,9 @@ source code reading notes on jdk 1.7
         - Vector &#10004;
         - Stack &#10004;
         - Map &#10004;
-        - AbstractMap
-        - HashMap
-        - LinkedHashMap
+        - AbstractMap &#10004;
+        - HashMap &#10004;
+        - LinkedHashMap &#10004;
         - WeakHashMap
         - SortedMap
         - NavigableMap
