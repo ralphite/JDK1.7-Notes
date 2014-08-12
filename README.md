@@ -51,9 +51,10 @@ source code reading notes on jdk 1.7
         - AbstractMap &#10004;
         - HashMap &#10004;
         - LinkedHashMap &#10004;
-        - WeakHashMap
-        - SortedMap
-        - NavigableMap
+        - IdentityHashMap &#10004;
+        - WeakHashMap &#10004;
+        - SortedMap &#10004;
+        - NavigableMap &#10004;
         - TreeMap
         - Dictionary
         - Hashtable
