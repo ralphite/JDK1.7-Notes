@@ -55,10 +55,11 @@ source code reading notes on jdk 1.7
         - WeakHashMap &#10004;
         - SortedMap &#10004;
         - NavigableMap &#10004;
-        - TreeMap
-        - Dictionary
-        - Hashtable
-        - EnumMap
+        - TreeMap &#10004;
+        - Dictionary &#10004;
+        - Hashtable &#10004;
+        - Properties &#10004;
+        - EnumMap &#10004;
         - Set &#10004;
         - AbstractSet &#10004;
         - HashSet &#10004;
