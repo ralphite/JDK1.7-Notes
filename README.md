@@ -64,13 +64,11 @@ source code reading notes on jdk 1.7
         - AbstractSet &#10004;
         - HashSet &#10004;
         - LinkedHashSet &#10004;
-        - SortedSet
-        - NavigableSet
-        - TreeSet
-        - EnumSet
-        - RegularEnumSet
-        - JumboEnumSet
-        - BitSet
+        - SortedSet &#10004;
+        - NavigableSet &#10004;
+        - TreeSet &#10004;
+        - EnumSet &#10004;
+        - BitSet &#10004;
         - Collections
     - Random
     - Scanner
